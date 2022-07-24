@@ -1,0 +1,12 @@
+#!/bin/bash
+CDIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
+cd "${CDIR}"
+
+if [ ! -f "./venvs/restoration/bin/activate" ]; then
+    echo "Restoration environment not configured. Please run ./setup and try again."
+    exit 1
+fi
+
+source ./venvs/restoration/bin/activate
+
+python restore.py $@

@@ -1,0 +1,9 @@
+#!/bin/bash
+CDIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
+cd "${CDIR}"
+
+python -m venv ./venvs/restoration
+source ./venvs/restoration/bin/activate
+pip install wheel
+pip install -r requirements_01.txt
+pip install -r requirements_02.txt

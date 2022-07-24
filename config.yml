@@ -1,0 +1,6 @@
+models:
+    model_path: "./weights/turb_current49.pth"
+output:
+    output_path: "./output_dir"
+eval_image:
+    image_path: "./test_input_image"
