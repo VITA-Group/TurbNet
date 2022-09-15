@@ -8,7 +8,7 @@ The Turbulence Text Dataset can be downloaded from: https://drive.google.com/fil
 
 The Heat Chamber Dataset can be downloaded from: https://drive.google.com/file/d/14iVachB95bCCtke8ONPD9CCH20JO75v2/view?usp=sharing
 
-Our models are released in the following location: https://drive.google.com/drive/folders/1ijaHurveoWKBJrpDAzpeqGtVy-9-36Pw?usp=sharing
+Our models will be released in the following location: https://drive.google.com/drive/folders/1ijaHurveoWKBJrpDAzpeqGtVy-9-36Pw?usp=sharing
 
 This dataset was also used in the 5th UG2+ Prize Challenge in associated with the "Bridging the Gap Between Computational Photography and Visual Recognition Workshop" at CVPR 2022. http://cvpr2022.ug2challenge.org/
 
