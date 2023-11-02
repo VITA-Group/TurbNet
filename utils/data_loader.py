@@ -166,8 +166,8 @@ class EvaluateData(data.Dataset):
         gt_img = Image.open(gt_name).convert('RGB')
         
         # haze_reshaped = haze_img
-        turb_reshaped = turb_img.resize((400, 400), Image.ANTIALIAS)
-        gt_reshaped = gt_img.resize((400, 400), Image.ANTIALIAS)
+        # turb_reshaped = turb_img.resize((400, 400), Image.ANTIALIAS)
+        # gt_reshaped = gt_img.resize((400, 400), Image.ANTIALIAS)
 
         # --- Transform to tensor --- #
         transform_turb = Compose([ToTensor()])
